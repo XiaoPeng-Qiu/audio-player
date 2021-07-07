@@ -1,0 +1,22 @@
+// 设置loading 样式
+.el-loading-spinner{
+  .path {
+    stroke: $theme-color !important;
+  }
+  .el-loading-text {
+    color: $theme-color !important;
+  }
+}
+
+// pagination
+.el-pagination,
+.el-pagination button,
+.el-pager li {
+  color: var(--font-color) !important;
+  &:hover{
+    color: $theme-color !important;
+  }
+  .active {
+    color: $theme-color !important;
+  }
+}
